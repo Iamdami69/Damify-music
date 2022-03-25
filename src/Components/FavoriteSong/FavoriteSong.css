@@ -1,0 +1,6 @@
+.FavouriteMusic {
+  padding: 10px;
+  overflow-y: scroll;
+  height: 400px;
+  flex: 2;
+}

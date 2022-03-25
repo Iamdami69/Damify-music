@@ -1,0 +1,34 @@
+.GenreContainer {
+  width: 100%;
+  display: grid;
+  grid-gap: 1rem;
+  padding: 0 10px;
+}
+.gernreListContainer {
+  padding: 10px;
+  width: 100%;
+}
+.GenreContainer .isGridListChild {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.genre {
+  font-size: 2rem;
+}
+@media (min-width: 600px) {
+  .genre {
+    font-size: 1.3rem;
+  }
+  .GenreContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 768px) {
+  .GenreContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.GenreContainer .isLoading {
+  min-width: 320px !important;
+}

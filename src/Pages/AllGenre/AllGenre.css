@@ -1,0 +1,30 @@
+.allGerne {
+  max-width: 1200px;
+  margin: 10px auto 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+  padding: 0 10px;
+}
+.allGerne .isGridListChild {
+  width: 100%;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.genre {
+  font-size: 2rem;
+}
+@media (min-width: 600px) {
+  .genre {
+    font-size: 1.3rem;
+  }
+  .allGerne {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 768px) {
+  .allGerne {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

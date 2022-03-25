@@ -1,0 +1,42 @@
+.noneUserSideBar {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+.greetingUser {
+  font-family: "dancing script", cursive;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 3rem;
+  position: relative;
+  bottom: -20%;
+}
+.Sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.userSidebarOne,
+.userSidebarTwo {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 2;
+  justify-content: space-around;
+  height: 50%;
+}
+.userSidebarTwo {
+  flex: 3;
+}
+.sidebarCurrentlyPlayingImage {
+  width: 80%;
+  margin: 10px auto;
+}
+@media only screen and (min-width: 600px) {
+  .greetingUser {
+    bottom: -8%;
+  }
+}

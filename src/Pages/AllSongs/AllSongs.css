@@ -1,0 +1,12 @@
+.allSong {
+  width: 100% !important;
+  display: flex;
+  justify-content: unset !important;
+  align-items: center;
+  gap: 10px;
+}
+.AllSongContainer.GenreContainer {
+  padding: 10px 5px !important;
+  width: 95%;
+  margin: 0 auto;
+}

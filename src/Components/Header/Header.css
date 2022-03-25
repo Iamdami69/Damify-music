@@ -1,0 +1,35 @@
+header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+}
+header form {
+  flex: 2;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 8px;
+}
+header form input {
+  flex: 2;
+  height: 40px;
+  padding: 0 0 0 10px;
+  font-size: 1rem;
+  border-radius: inherit;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.profile-image-loading-placeholder {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}

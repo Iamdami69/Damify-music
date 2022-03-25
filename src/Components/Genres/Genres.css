@@ -1,0 +1,15 @@
+.Genres {
+  padding: 10px;
+  flex: 2;
+}
+.GenresContainer {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+.GenresContainer div p {
+  white-space: no-warp;
+  font-size: 0.7rem;
+  text-transform: capitalize;
+  text-overflow: ellipsis;
+}

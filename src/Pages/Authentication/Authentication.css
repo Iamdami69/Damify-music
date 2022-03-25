@@ -1,0 +1,47 @@
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.authenticationPageAppLogoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+.authenticationPageLogoTitle {
+  position: relative;
+  bottom: 0;
+
+  font-family: 'Dancing Script', cursive;
+}
+.authenticationForm {
+  width: 90%;
+  max-width: 500px;
+  border-radius: 5px;
+  padding: 20px 10px;
+}
+.authenticationPageInputContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.authenticationPageInput {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  height: 30px;
+  width: 100%;
+  padding: 0 5px;
+}
+
+.authenticationFormSubmitButton:disabled {
+  opacity: 50%;
+}
+.alreadyHaveAnAccountOrNot {
+  text-align: center;
+}

@@ -1,0 +1,60 @@
+.Songheader {
+  padding: 0 5px;
+}
+.backAndIsFavButton {
+  display: flex;
+  justify-content: space-between;
+}
+.songDetails {
+  display: flex;
+}
+.songDetailsText {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  position: relative;
+}
+.divforptext {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 10px;
+  width: 80%;
+}
+.similarSongsAndPlayButton {
+  margin: 10px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+.similarSongsAndPlayButton button {
+  flex: 2;
+  border-radius: 4px;
+}
+.SiimlarSongContainer {
+  width: 100%;
+  display: grid;
+  grid-gap: 1rem;
+  padding: 0 10px;
+}
+.similarSongContainer {
+  padding: 10px;
+  width: 100%;
+}
+
+.SiimlarSongContainer .isGridListChild {
+  /* width: max-content; */
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+@media (min-width: 600px) {
+  .SiimlarSongContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 768px) {
+  .SiimlarSongContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

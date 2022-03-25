@@ -1,0 +1,182 @@
+.nowplayingHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.backContainer,
+.allSongIcon {
+  flex: 1;
+}
+.nowPlayingTitle {
+  flex: 5;
+  text-align: center;
+}
+.nowPlayingHero {
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nowPlayingLyricsContainer {
+  padding: 0 20px;
+  scroll-behavior: smooth !important;
+}
+.nowPlayingLyricsContainer.isLoading {
+  height: 250px;
+  scroll-behavior: smooth !important;
+}
+.nowplayingLyrics {
+  height: 250px;
+  overflow-y: scroll;
+  opacity: 0.5;
+  scroll-behavior: smooth !important;
+}
+.nowplayingLyrics::-webkit-scrollbar {
+  scroll-behavior: smooth !important;
+  display: none;
+}
+.Lyrics {
+  scroll-behavior: smooth !important;
+  text-align: justify;
+  text-transform: capitalize;
+  line-height: 2rem;
+}
+.Lyrics::first-letter {
+  font-family: "dancing script", cursive;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.previousPlayNextLoopShuffelContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 20px;
+}
+.songDuration {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.loader {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader .stroke {
+  display: block;
+  position: relative;
+  background-color: #fff;
+  height: 100%;
+  width: 10px;
+  margin: 0 5px;
+  border-radius: 50px;
+}
+.loader .wave.isPlaying {
+  display: block;
+  position: relative;
+  background-color: #fff;
+  height: 100%;
+  width: 10px;
+  margin: 0 5px;
+  border-radius: 50px;
+}
+.wave.isPlaying {
+  animation: animate 1.2s linear infinite;
+}
+@keyframes animate {
+  50% {
+    height: 20%;
+  }
+  100% {
+    height: 100%;
+  }
+}
+.wave.isPlaying:nth-child(1) {
+  animation-delay: 0s;
+}
+.wave.isPlaying:nth-child(2) {
+  animation-delay: 0.3s;
+}
+.wave.isPlaying:nth-child(3) {
+  animation-delay: 0.6s;
+}
+.wave.isPlaying:nth-child(4) {
+  animation-delay: 0.9s;
+}
+.wave.isPlaying:nth-child(5) {
+  animation-delay: 0.6s;
+}
+.wave.isPlaying:nth-child(6) {
+  animation-delay: 0.3s;
+}
+.wave.isPlaying:nth-child(7) {
+  animation-delay: 0s;
+}
+.wave.isPlaying:nth-child(8) {
+  animation-delay: 0.3s;
+}
+.wave.isPlaying:nth-child(9) {
+  animation-delay: 0.6s;
+}
+.wave.isPlaying:nth-child(10) {
+  animation-delay: 0.9s;
+}
+.wave.isPlaying:nth-child(11) {
+  animation-delay: 0.6s;
+}
+.wave.isPlaying:nth-child(12) {
+  animation-delay: 0.3s;
+}
+.wave.isPlaying:nth-child(13) {
+  animation-delay: 0s;
+}
+.wave.isPlaying:nth-child(14) {
+  animation-delay: 0.3s;
+}
+
+/* setting stroke height is music isnt playing */
+.stroke:nth-child(1) {
+  height: 30%;
+}
+.stroke:nth-child(2) {
+  height: 60%;
+}
+.stroke:nth-child(3) {
+  height: 90%;
+}
+.stroke:nth-child(4) {
+  height: 30%;
+}
+.stroke:nth-child(5) {
+  height: 60%;
+}
+.stroke:nth-child(6) {
+  height: 90%;
+}
+.stroke:nth-child(7) {
+  height: 30%;
+}
+.stroke:nth-child(8) {
+  height: 60%;
+}
+.stroke:nth-child(9) {
+  height: 90%;
+}
+.stroke:nth-child(10) {
+  height: 30%;
+}
+.stroke:nth-child(11) {
+  height: 60%;
+}
+.stroke:nth-child(12) {
+  height: 90%;
+}
+.stroke:nth-child(13) {
+  height: 30%;
+}
+.stroke:nth-child(14) {
+  height: 60%;
+}
